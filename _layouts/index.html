@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>浮生六记</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+      body{
+          font-family: Helvetica, Georgia, Arial, sans-serif, "新宋体", PMingLiU;
+        font-size: 16px;
+      }
+      .navbar-brand {
+    float: left;
+    padding: 1px 5px;
+    font-size: 16px;
+    height: unset;
+}
+      nav#navbar{
+        margin-bottom: 5rem;
+/*        box-shadow: 0 1px 14px 0 rgba(200, 200, 200, 0.49);
+*/      }
+      nav#navbar .navbar-nav > li > a {
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+font-size: 13px;
+}
+      nav#navbar li.active{
+        font-weight: 700;
+      }
+      .nav > li > a:focus, .nav > li > a:hover {
+          text-decoration: none;
+          background-color: unset;
+      }
+        .main p {
+     
+    margin: 0 0 30px;
+    line-height: 28px;
+    font-size: 18px;
+      }
+     
+      .bs-docs-sidebar .nav > li > a {
+    display: block;
+    padding: 4px 20px;
+    font-weight: 500;
+    color: #767676;
+}
+.bs-docs-sidebar .nav > li > a:focus, .bs-docs-sidebar .nav > li > a:hover {
+    padding-left: 19px;
+    color: #563d7c;
+    text-decoration: none;
+    background-color: transparent;
+    border-left: 2px solid #563d7c;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><svg t="1574240970963" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="696" width="28" height="28"><path d="M509.73803 982.958488l-64.135005 4.037412c30.220736-67.135682-117.691224-260.101095-117.691224-260.101094 34.507781-78.318169 21.086249-134.447124 21.086249-134.447124-217.831801-13.513234-311.344398-188.973851-311.344398-188.973851C-49.883065 179.531144 99.822169 39.966567 99.822169 39.966567c29.15598 172.248517 35.126766 241.684378 150.69612 312.141692 76.850945 46.849274 226.838925 66.509055 301.573094 60.963661v0.830408c70.852139-3.675701 158.439801-23.590209 219.816119-61.006965 115.569353-70.459861 121.542687-139.893174 150.69612-312.141691 0 0 149.707781 139.564577 62.168517 363.502169 0 0-93.51005 175.463164-311.34185 188.976398 0 0-13.42408 56.128955 21.083701 134.444577 0 0-147.909413 192.96796-117.691224 260.101094l-67.069453-4.220815-0.015283-0.601155z" p-id="697" fill="#dc3545"></path></svg></a>
+          </div>
+    <nav id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="/闺房记乐">浮生六记</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/闺房记乐">闺房记乐</a></li>
+              <li><a href="#">闲情记趣</a></li>
+              <li><a href="#">坎坷记愁</a></li>
+                  <li><a href="#">浪游记快</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+<div class="container">
+
+
+<div class="main">
+  <div class="col-md-9">
+{{content}}
+</div>
+<div class="col-md-3" role="complementary">
+          <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm">
+            <ul class="nav bs-docs-sidenav">
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <li>
+  <a href="#overview">概览</a>
+  <ul class="nav">
+    <li><a href="#overview-doctype">分题沈三白处士浮生六记</a></li>
+    <li><a href="#overview-mobile">浮生六记序</a></li>
+    <li><a href="#overview-type-links">浮生六记跋</a></li>
+    <li><a href="#overview-normalize">浮生六记序</a></li>
+    <li><a href="#overview-container">重刊浮生六记序</a></li>
+    <li><a href="#overview-container">卷一　闺房记乐</a></li>
+    <li><a href="#overview-container">卷二　闲情记趣</a></li>
+    <li><a href="#overview-container">卷三　坎坷记愁</a></li>
+    <li><a href="#overview-container">卷四　浪游记快</a></li>
+    <li><a href="#overview-container">卷五　中山记历（已佚）</a></li>
+    <li><a href="#overview-container">卷六　养生记道（已佚）</a></li>
+  </ul>
+</li></ul></nav></div></div>
+</div>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      !function(a){"use strict";a(function(){var b=a(window),c=a(document.body);c.scrollspy({target:".bs-docs-sidebar"}),b.on("load",function(){c.scrollspy("refresh")}),a('.bs-docs-container [href="#"]').click(function(a){a.preventDefault()}),setTimeout(function(){var b=a(".bs-docs-sidebar");b.affix({offset:{top:function(){var c=b.offset().top,d=parseInt(b.children(0).css("margin-top"),10),e=a(".bs-docs-nav").height();return this.top=c-e-d},bottom:function(){return this.bottom=a(".bs-docs-footer").outerHeight(!0)}}})},100),setTimeout(function(){a(".bs-top").affix()},100),function(){var b=a("#bs-theme-stylesheet"),c=a(".bs-docs-theme-toggle"),d=function(){b.attr("href",b.attr("data-href")),c.text("Disable theme preview"),localStorage.setItem("previewTheme",!0)};localStorage.getItem("previewTheme")&&d(),c.click(function(){var a=b.attr("href");a&&0!==a.indexOf("data")?(b.attr("href",""),c.text("Preview theme"),localStorage.removeItem("previewTheme")):d()})}(),a(".tooltip-demo").tooltip({selector:'[data-toggle="tooltip"]',container:"body"}),a(".popover-demo").popover({selector:'[data-toggle="popover"]',container:"body"}),a(".tooltip-test").tooltip(),a(".popover-test").popover(),a(".bs-docs-popover").popover(),a("#loading-example-btn").on("click",function(){var b=a(this);b.button("loading"),setTimeout(function(){b.button("reset")},3e3)}),a("#exampleModal").on("show.bs.modal",function(b){var c=a(b.relatedTarget),d=c.data("whatever"),e=a(this);e.find(".modal-title").text("New message to "+d),e.find(".modal-body input").val(d)}),a(".bs-docs-activate-animated-progressbar").on("click",function(){a(this).siblings(".progress").find(".progress-bar-striped").toggleClass("active")}),ZeroClipboard.config({moviePath:"/assets/flash/ZeroClipboard.swf",hoverClass:"btn-clipboard-hover"}),a(".highlight").each(function(){var b='<div class="zero-clipboard"><span class="btn-clipboard">Copy</span></div>';a(this).before(b)});var d=new ZeroClipboard(a(".btn-clipboard")),e=a("#global-zeroclipboard-html-bridge");d.on("load",function(){e.data("placement","top").attr("title","Copy to clipboard").tooltip(),d.on("dataRequested",function(b){var c=a(this).parent().nextAll(".highlight").first();b.setText(c.text())}),d.on("complete",function(){e.attr("title","Copied!").tooltip("fixTitle").tooltip("show").attr("title","Copy to clipboard").tooltip("fixTitle")})}),d.on("noflash wrongflash",function(){a(".zero-clipboard").remove(),ZeroClipboard.destroy()})})}(jQuery),function(){"use strict";anchors.options.placement="left",anchors.add(".bs-docs-section > h1, .bs-docs-section > h2, .bs-docs-section > h3, .bs-docs-section > h4, .bs-docs-section > h5")}();
+    </script>
+  </body>
+</html>
